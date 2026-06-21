@@ -60,7 +60,7 @@
 ## GitHub 發布與維護
 
 - `index.html` 是 GitHub Pages 首頁，會導向完整儀表板。
-- 推送到 `main` 後，`.github/workflows/pages.yml` 會自動發布最新版。
-- 第一次使用時，在 repository 的 Settings > Pages 將 Source 設為 GitHub Actions。
+- 專案目前放在私人 repository；每週可自動推送更新，但目前帳號方案不支援私人 GitHub Pages。
+- `.github/workflows/pages.yml` 保留為手動流程；日後升級 GitHub 方案後，可在 Actions 手動發布。
 - 每週代理執行完成後，要一起更新 `course-radar-data.js`、`source_registry.csv` 與當週報告，再提交並推送。
 - GitHub Pages 只負責發布；三代理研究由 Codex 每週自動化執行，避免把模型金鑰放進公開網頁。
