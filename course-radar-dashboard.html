@@ -233,13 +233,13 @@
   <main class="shell">
     <header class="topbar">
       <div class="brand"><span class="brand-mark">◎</span><span>AI 課程多代理系統</span></div>
-      <div class="run-status">第一次試跑完成</div>
+      <div class="run-status" id="run-status">第一次試跑完成</div>
     </header>
 
     <section class="hero" aria-labelledby="page-title">
-      <div class="eyebrow">WEEKLY COURSE RADAR · 2026.06.21</div>
+      <div class="eyebrow" id="hero-date">WEEKLY COURSE RADAR · 2026.06.21</div>
       <h1 id="page-title">課程市場雷達</h1>
-      <p>三個 AI 代理同步研究台灣市場、國際案例與指定來源，把外部課程包裝轉成可驗收的企業培訓產品。</p>
+      <p id="hero-summary">三個 AI 代理同步研究台灣市場、國際案例與指定來源，把外部課程包裝轉成可驗收的企業培訓產品。</p>
       <div class="command"><span>›</span><code>啟動本週節流版 LV6 課程市場雷達</code></div>
     </section>
 
@@ -251,7 +251,7 @@
     </div>
 
     <section aria-labelledby="trend-title">
-      <div class="section-head"><div><div class="eyebrow">WEEK OVER WEEK</div><h2 id="trend-title">每週起伏與比較</h2></div><p>今天是基準週。從下一次開始，這裡會自動顯示本週對上週的增減與兩門主課的市場分數走勢。</p></div>
+      <div class="section-head"><div><div class="eyebrow">WEEK OVER WEEK</div><h2 id="trend-title">每週起伏與比較</h2></div><p id="trend-summary">今天是基準週。從下一次開始，這裡會自動顯示本週對上週的增減與兩門主課的市場分數走勢。</p></div>
       <div class="trend-grid">
         <article class="trend-panel"><h3>兩門主課最佳案例分數</h3><p>50 分制，追蹤市場包裝與課程設計的參考強度</p><div class="chart" id="score-chart" aria-label="主課分數趨勢圖"></div><div class="legend"><span>個人 AI 工作台</span><span>企業／主管戰情室</span></div></article>
         <article class="trend-panel"><h3>每週新增案例</h3><p>台灣與國際來源的新增數量</p><div class="weekly-bars" id="weekly-bars"></div></article>
@@ -318,7 +318,7 @@
       <div class="history-wrap"><table class="history-table"><thead><tr><th>週次</th><th>研究主題</th><th>新增案例</th><th>案例庫</th><th>工作台</th><th>戰情室</th><th>耗時</th><th>狀態</th></tr></thead><tbody id="history-body"></tbody></table></div>
     </section>
 
-    <footer class="footer"><span id="footer-run">AI 課程市場雷達 · 第一次試跑 · 2026-06-21</span><a href="reports/2026-06-21_第一次試跑.md">閱讀完整報告 →</a></footer>
+    <footer class="footer"><span id="footer-run">AI 課程市場雷達 · 第一次試跑 · 2026-06-21</span><a id="footer-report" href="reports/2026-06-21_第一次試跑.md">閱讀完整報告 →</a></footer>
   </main>
   <script src="course-radar-data.js"></script>
   <script>
@@ -341,11 +341,17 @@
       setText("metric-cases", latest.totalCases);
       setText("metric-duration", latest.durationMinutes);
       setText("metric-a-grade", latest.aGradeCases);
+      setText("run-status", `${latest.date} 雷達完成`);
+      setText("hero-date", `WEEKLY COURSE RADAR · ${latest.date.replaceAll("-", ".")}`);
+      setText("hero-summary", latest.notes || "三個 AI 代理同步研究台灣市場、國際案例與指定來源，把外部課程包裝轉成可驗收的企業培訓產品。");
+      setText("trend-summary", previous ? `本週相較 ${previous.date}，案例庫與 A 級案例會自動顯示增減；主課分數追蹤本週最強市場標竿。` : "今天是基準週。從下一次開始，這裡會自動顯示本週對上週的增減與兩門主課的市場分數走勢。");
       delta("delta-agents", latest.agents, previous?.agents);
       delta("delta-cases", latest.totalCases, previous?.totalCases);
       delta("delta-duration", latest.durationMinutes, previous?.durationMinutes, " 分鐘");
       delta("delta-a-grade", latest.aGradeCases, previous?.aGradeCases);
       setText("footer-run", `AI 課程市場雷達 · ${runs.length === 1 ? "第一次試跑" : `第 ${runs.length} 週`} · ${latest.date}`);
+      const footerReport = document.getElementById("footer-report");
+      if (footerReport && latest.report) footerReport.href = latest.report;
 
       const chart = document.getElementById("score-chart");
       const w = 640, h = 220, padX = 42, padY = 28, minY = 25, maxY = 50;
