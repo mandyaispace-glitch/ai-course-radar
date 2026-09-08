@@ -45,6 +45,21 @@ window.COURSE_RADAR_DATA = {
       topics: ["AI 導入成效衡量／ROI", "AI 搜尋可見性／GEO"],
       report: "reports/2026-08-23_每週AI課程市場雷達.md",
       notes: "本週訊號從工具導入轉向成效證明與 AI 搜尋可見性；建議只提候選模組，不改兩門主課承諾。"
+    },
+    {
+      date: "2026-09-09",
+      agents: 3,
+      durationMinutes: 34,
+      newTaiwan: 5,
+      newGlobal: 5,
+      reviewedLocked: 4,
+      totalCases: 44,
+      aGradeCases: 24,
+      personalScore: 41,
+      warRoomScore: 47,
+      topics: ["AI 組織工作系統／試點章程", "行政自動化個人總部"],
+      report: "reports/2026-09-09_每週AI課程市場雷達.md",
+      notes: "本週訊號從 AI demo 與工具串接轉向 use case brief、pilot charter、人機分工與可升級試點；建議新增候選模組，不改兩門主課承諾。"
     }
   ]
 };
