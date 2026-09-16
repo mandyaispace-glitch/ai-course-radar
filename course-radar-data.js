@@ -60,6 +60,21 @@ window.COURSE_RADAR_DATA = {
       topics: ["AI 組織工作系統／試點章程", "行政自動化個人總部"],
       report: "reports/2026-09-09_每週AI課程市場雷達.md",
       notes: "本週訊號從 AI demo 與工具串接轉向 use case brief、pilot charter、人機分工與可升級試點；建議新增候選模組，不改兩門主課承諾。"
+    },
+    {
+      date: "2026-09-16",
+      agents: 3,
+      durationMinutes: 37,
+      newTaiwan: 5,
+      newGlobal: 5,
+      reviewedLocked: 4,
+      totalCases: 54,
+      aGradeCases: 33,
+      personalScore: 43,
+      warRoomScore: 46,
+      topics: ["AI operating model／決策權責", "職能型 Agent 工作流"],
+      report: "reports/2026-09-16_每週AI課程市場雷達.md",
+      notes: "本週訊號從 pilot charter 推進到 operating model、decision rights、AI workforce 與職能型 Agent 任務包；建議新增候選模組，不改兩門主課承諾。"
     }
   ]
 };
