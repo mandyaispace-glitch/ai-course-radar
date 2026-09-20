@@ -75,6 +75,21 @@ window.COURSE_RADAR_DATA = {
       topics: ["AI operating model／決策權責", "職能型 Agent 工作流"],
       report: "reports/2026-09-16_每週AI課程市場雷達.md",
       notes: "本週訊號從 pilot charter 推進到 operating model、decision rights、AI workforce 與職能型 Agent 任務包；建議新增候選模組，不改兩門主課承諾。"
+    },
+    {
+      date: "2026-09-20",
+      agents: 3,
+      durationMinutes: 36,
+      newTaiwan: 5,
+      newGlobal: 5,
+      reviewedLocked: 4,
+      totalCases: 64,
+      aGradeCases: 40,
+      personalScore: 44,
+      warRoomScore: 45,
+      topics: ["Agent 導入控制點／例外升級", "Agent 工作流上線驗收／90天節奏"],
+      report: "reports/2026-09-20_每週AI課程市場雷達.md",
+      notes: "本週訊號從 operating model 進一步落到控制點、技術與組織治理並行、production-ready workflow 與 90 天部署節奏；建議新增候選模組，不改兩門主課承諾。"
     }
   ]
 };
