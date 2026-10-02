@@ -90,6 +90,21 @@ window.COURSE_RADAR_DATA = {
       topics: ["Agent 導入控制點／例外升級", "Agent 工作流上線驗收／90天節奏"],
       report: "reports/2026-09-20_每週AI課程市場雷達.md",
       notes: "本週訊號從 operating model 進一步落到控制點、技術與組織治理並行、production-ready workflow 與 90 天部署節奏；建議新增候選模組，不改兩門主課承諾。"
+    },
+    {
+      date: "2026-10-02",
+      agents: 3,
+      durationMinutes: 38,
+      newTaiwan: 5,
+      newGlobal: 5,
+      reviewedLocked: 4,
+      totalCases: 74,
+      aGradeCases: 48,
+      personalScore: 42,
+      warRoomScore: 46,
+      topics: ["AI 使用品質／AI literacy 評估", "員工採用／信任與工作流成熟度"],
+      report: "reports/2026-10-02_每週AI課程市場雷達.md",
+      notes: "本週訊號從 Agent 上線驗收延伸到分角色 AI 素養、輸出品質評估、採用訊號與企業內部轉交包；建議新增候選模組，不改兩門主課承諾。"
     }
   ]
 };
