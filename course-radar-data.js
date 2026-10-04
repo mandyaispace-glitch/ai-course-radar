@@ -105,6 +105,21 @@ window.COURSE_RADAR_DATA = {
       topics: ["AI 使用品質／AI literacy 評估", "員工採用／信任與工作流成熟度"],
       report: "reports/2026-10-02_每週AI課程市場雷達.md",
       notes: "本週訊號從 Agent 上線驗收延伸到分角色 AI 素養、輸出品質評估、採用訊號與企業內部轉交包；建議新增候選模組，不改兩門主課承諾。"
+    },
+    {
+      date: "2026-10-04",
+      agents: 3,
+      durationMinutes: 34,
+      newTaiwan: 7,
+      newGlobal: 3,
+      reviewedLocked: 4,
+      totalCases: 84,
+      aGradeCases: 56,
+      personalScore: 44,
+      warRoomScore: 46,
+      topics: ["AI-ready 導入規劃／治理可操作化", "人機協作 Prototype"],
+      report: "reports/2026-10-04_每週AI課程市場雷達.md",
+      notes: "本週距上次僅兩天，訊號從 AI literacy 往導入準備度、可展示 Prototype、責任地圖與治理營運化延伸；建議新增候選模組，不改兩門主課承諾。"
     }
   ]
 };
