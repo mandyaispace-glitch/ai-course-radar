@@ -120,6 +120,21 @@ window.COURSE_RADAR_DATA = {
       topics: ["AI-ready 導入規劃／治理可操作化", "人機協作 Prototype"],
       report: "reports/2026-10-04_每週AI課程市場雷達.md",
       notes: "本週距上次僅兩天，訊號從 AI literacy 往導入準備度、可展示 Prototype、責任地圖與治理營運化延伸；建議新增候選模組，不改兩門主課承諾。"
+    },
+    {
+      date: "2026-10-11",
+      agents: 3,
+      durationMinutes: 39,
+      newTaiwan: 6,
+      newGlobal: 4,
+      reviewedLocked: 4,
+      totalCases: 94,
+      aGradeCases: 62,
+      personalScore: 43,
+      warRoomScore: 44,
+      topics: ["AI 搜尋可見性／GEO", "agentic 平台與治理責任"],
+      report: "reports/2026-10-11_每週AI課程市場雷達.md",
+      notes: "本週訊號從導入規劃延伸到 AI 搜尋可引用性與 AI agents 作為平台／流程參與者；建議新增候選模組，不改兩門主課承諾。"
     }
   ]
 };
