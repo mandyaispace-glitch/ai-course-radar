@@ -135,6 +135,21 @@ window.COURSE_RADAR_DATA = {
       topics: ["AI 搜尋可見性／GEO", "agentic 平台與治理責任"],
       report: "reports/2026-10-11_每週AI課程市場雷達.md",
       notes: "本週訊號從導入規劃延伸到 AI 搜尋可引用性與 AI agents 作為平台／流程參與者；建議新增候選模組，不改兩門主課承諾。"
+    },
+    {
+      date: "2026-10-18",
+      agents: 3,
+      durationMinutes: 48,
+      newTaiwan: 3,
+      newGlobal: 7,
+      reviewedLocked: 5,
+      totalCases: 104,
+      aGradeCases: 65,
+      personalScore: 46,
+      warRoomScore: 44,
+      topics: ["B2B 客戶互動閉環", "AI 採用標準／人工覆核"],
+      report: "reports/2026-10-18_每週AI課程市場雷達.md",
+      notes: "本週市場從泛用 Agent 轉向可驗收的 B2B 銷售與服務工作包：脈絡整理、AI 草擬、人工核對、系統更新或升級；維持主課承諾，只提案共用驗收卡。"
     }
   ]
 };
