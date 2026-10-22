@@ -1,3 +1,11 @@
+# AI 課程與需求月度觀測
+
+2026-10-22 起依 Mandy 要求改採月度：比較相鄰月份、逐月保留觀測快照。執行規則見 [monthly_update_contract.md](monthly_update_contract.md)，月度索引為 [monthly-observations.json](monthly-observations.json)。公開案例仍累積於既有來源庫與 reports；個人適配判斷留既有受保護網站。
+
+歷史週次不改名、不覆寫；下方為原系統與歷史週次儀表板說明，後續更新節奏以月度契約優先。
+
+---
+
 # AI 課程多代理系統
 
 這套架構用於每週一次的課程市場研究，以及兩個主課產品家族的持續開發。
