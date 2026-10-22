@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-22",
+  "cadence": "monthly",
+  "timezone": "Asia/Taipei",
+  "sourceRepository": "mandyaispace-glitch/ai-course-radar",
+  "sourceSnapshotSha": "a4fba665c30b2a7cd67010aa0497851e52068880",
+  "notes": "歷史月彙整來自既有研究紀錄；數量為收錄與研究活動，不是市場規模或招生人數。保留來源自報累積數，未逐案重新查核。",
+  "observations": [
+    {
+      "id": "legacy-2026-06-v1",
+      "month": "2026-06",
+      "revision": 1,
+      "recordedAt": "2026-10-22",
+      "coverage": "historical_samples",
+      "asOf": "2026-06-21",
+      "summary": "首次試跑，建立課程觀測基準。",
+      "topics": [
+        "個人 AI 工作台",
+        "企業／主管戰情室"
+      ],
+      "researchRuns": 1,
+      "newTaiwan": 5,
+      "newGlobal": 5,
+      "newCases": 10,
+      "totalCases": 14,
+      "metricsBasis": "source_reported_research_records",
+      "demandObservations": [],
+      "sources": [
+        {
+          "date": "2026-06-21",
+          "url": "https://github.com/mandyaispace-glitch/ai-course-radar/blob/main/reports/2026-06-21_第一次試跑.md",
+          "label": "2026-06-21 原始研究報告"
+        }
+      ],
+      "limits": [
+        "歷史紀錄按月彙整，未重新測量整月市場。",
+        "案例收錄筆數受研究次數與取樣影響，月差不代表市場增幅。"
+      ]
+    },
+    {
+      "id": "legacy-2026-08-v1",
+      "month": "2026-08",
+      "revision": 1,
+      "recordedAt": "2026-10-22",
+      "coverage": "historical_samples",
+      "asOf": "2026-08-23",
+      "summary": "觀測主題由工具與流程實作，延伸到導入成效與 AI 搜尋可見度。",
+      "topics": [
+        "AI Agent／n8n 工作流程自動化",
+        "主管 AI 策略治理／決策責任",
+        "AI 導入成效衡量／ROI",
+        "AI 搜尋可見性／GEO"
+      ],
+      "researchRuns": 2,
+      "newTaiwan": 10,
+      "newGlobal": 10,
+      "newCases": 20,
+      "totalCases": 34,
+      "metricsBasis": "source_reported_research_records",
+      "demandObservations": [],
+      "sources": [
+        {
+          "date": "2026-08-16",
+          "url": "https://github.com/mandyaispace-glitch/ai-course-radar/blob/main/reports/2026-08-16_每週AI課程市場雷達.md",
+          "label": "2026-08-16 原始研究報告"
+        },
+        {
+          "date": "2026-08-23",
+          "url": "https://github.com/mandyaispace-glitch/ai-course-radar/blob/main/reports/2026-08-23_每週AI課程市場雷達.md",
+          "label": "2026-08-23 原始研究報告"
+        }
+      ],
+      "limits": [
+        "歷史紀錄按月彙整，未重新測量整月市場。",
+        "案例收錄筆數受研究次數與取樣影響，月差不代表市場增幅。"
+      ]
+    },
+    {
+      "id": "legacy-2026-09-v1",
+      "month": "2026-09",
+      "revision": 1,
+      "recordedAt": "2026-10-22",
+      "coverage": "historical_samples",
+      "asOf": "2026-09-20",
+      "summary": "多次觀測聚焦組織工作系統、決策權責、Agent 控制點與上線驗收。",
+      "topics": [
+        "AI 組織工作系統／試點章程",
+        "行政自動化個人總部",
+        "AI operating model／決策權責",
+        "職能型 Agent 工作流",
+        "Agent 導入控制點／例外升級",
+        "Agent 工作流上線驗收／90天節奏"
+      ],
+      "researchRuns": 3,
+      "newTaiwan": 15,
+      "newGlobal": 15,
+      "newCases": 30,
+      "totalCases": 64,
+      "metricsBasis": "source_reported_research_records",
+      "demandObservations": [],
+      "sources": [
+        {
+          "date": "2026-09-09",
+          "url": "https://github.com/mandyaispace-glitch/ai-course-radar/blob/main/reports/2026-09-09_每週AI課程市場雷達.md",
+          "label": "2026-09-09 原始研究報告"
+        },
+        {
+          "date": "2026-09-16",
+          "url": "https://github.com/mandyaispace-glitch/ai-course-radar/blob/main/reports/2026-09-16_每週AI課程市場雷達.md",
+          "label": "2026-09-16 原始研究報告"
+        },
+        {
+          "date": "2026-09-20",
+          "url": "https://github.com/mandyaispace-glitch/ai-course-radar/blob/main/reports/2026-09-20_每週AI課程市場雷達.md",
+          "label": "2026-09-20 原始研究報告"
+        }
+      ],
+      "limits": [
+        "歷史紀錄按月彙整，未重新測量整月市場。",
+        "案例收錄筆數受研究次數與取樣影響，月差不代表市場增幅。"
+      ]
+    },
+    {
+      "id": "legacy-2026-10-v1",
+      "month": "2026-10",
+      "revision": 1,
+      "recordedAt": "2026-10-22",
+      "coverage": "partial_month",
+      "asOf": "2026-10-18",
+      "summary": "觀測延伸至 AI 使用品質、員工採用、GEO 與 B2B 客戶互動閉環；截至 10/18。",
+      "topics": [
+        "AI 使用品質／AI literacy 評估",
+        "員工採用／信任與工作流成熟度",
+        "AI-ready 導入規劃／治理可操作化",
+        "人機協作 Prototype",
+        "AI 搜尋可見性／GEO",
+        "agentic 平台與治理責任",
+        "B2B 客戶互動閉環",
+        "AI 採用標準／人工覆核"
+      ],
+      "researchRuns": 4,
+      "newTaiwan": 21,
+      "newGlobal": 19,
+      "newCases": 40,
+      "totalCases": 104,
+      "metricsBasis": "source_reported_research_records",
+      "demandObservations": [],
+      "sources": [
+        {
+          "date": "2026-10-02",
+          "url": "https://github.com/mandyaispace-glitch/ai-course-radar/blob/main/reports/2026-10-02_每週AI課程市場雷達.md",
+          "label": "2026-10-02 原始研究報告"
+        },
+        {
+          "date": "2026-10-04",
+          "url": "https://github.com/mandyaispace-glitch/ai-course-radar/blob/main/reports/2026-10-04_每週AI課程市場雷達.md",
+          "label": "2026-10-04 原始研究報告"
+        },
+        {
+          "date": "2026-10-11",
+          "url": "https://github.com/mandyaispace-glitch/ai-course-radar/blob/main/reports/2026-10-11_每週AI課程市場雷達.md",
+          "label": "2026-10-11 原始研究報告"
+        },
+        {
+          "date": "2026-10-18",
+          "url": "https://github.com/mandyaispace-glitch/ai-course-radar/blob/main/reports/2026-10-18_每週AI課程市場雷達.md",
+          "label": "2026-10-18 原始研究報告"
+        }
+      ],
+      "limits": [
+        "歷史紀錄按月彙整，未重新測量整月市場。",
+        "案例收錄筆數受研究次數與取樣影響，月差不代表市場增幅。"
+      ]
+    }
+  ]
+}
