@@ -150,6 +150,21 @@ window.COURSE_RADAR_DATA = {
       topics: ["B2B 客戶互動閉環", "AI 採用標準／人工覆核"],
       report: "reports/2026-10-18_每週AI課程市場雷達.md",
       notes: "本週市場從泛用 Agent 轉向可驗收的 B2B 銷售與服務工作包：脈絡整理、AI 草擬、人工核對、系統更新或升級；維持主課承諾，只提案共用驗收卡。"
+    },
+    {
+      date: "2026-10-25",
+      agents: 3,
+      durationMinutes: 42,
+      newTaiwan: 4,
+      newGlobal: 6,
+      reviewedLocked: 0,
+      totalCases: 114,
+      aGradeCases: 73,
+      personalScore: 46,
+      warRoomScore: 46,
+      topics: ["客戶互動閉環的30天回用", "AI 採用品質訊號／人工核對"],
+      report: "reports/2026-10-25_每週AI課程市場雷達.md",
+      notes: "本週驗證上週的 B2B 客戶互動閉環：市場支持用案件紀錄、人工核對、升級規則與週期回看衡量採用；不支持承諾30天必然採用、效率或營收。"
     }
   ]
 };
