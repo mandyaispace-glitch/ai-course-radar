@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22",
+  "updatedAt": "2026-11-02",
   "cadence": "monthly",
   "timezone": "Asia/Taipei",
   "sourceRepository": "mandyaispace-glitch/ai-course-radar",
-  "sourceSnapshotSha": "a4fba665c30b2a7cd67010aa0497851e52068880",
+  "sourceSnapshotSha": "3fdd69b45b0c70131bf802abd1c0a4ff9f6af707",
   "notes": "歷史月彙整來自既有研究紀錄；數量為收錄與研究活動，不是市場規模或招生人數。保留來源自報累積數，未逐案重新查核。",
   "observations": [
     {
@@ -171,6 +171,158 @@
       "limits": [
         "歷史紀錄按月彙整，未重新測量整月市場。",
         "案例收錄筆數受研究次數與取樣影響，月差不代表市場增幅。"
+      ]
+    },
+    {
+      "id": "closed-2026-10-v2",
+      "month": "2026-10",
+      "revision": 2,
+      "recordedAt": "2026-11-02",
+      "coverage": "closed_month",
+      "asOf": "2026-10-31",
+      "summary": "10月公開課供給集中於主管AI決策、Agent治理與可驗收工作流；僅少數頁面提供確定開班，整體付費需求與招生量仍證據不足。",
+      "topics": [
+        "主管AI決策／責任與治理",
+        "AI Agent／人機協作組織",
+        "可驗收工作流／採用回看",
+        "B2B客戶互動閉環",
+        "GEO／AI搜尋",
+        "AI資安與供應鏈風險"
+      ],
+      "researchRuns": 5,
+      "newTaiwan": 25,
+      "newGlobal": 25,
+      "newCases": 50,
+      "totalCases": 114,
+      "metricsBasis": "source_registry_deduplicated_research_records_through_2026-10-25_not_market_demand",
+      "demandObservations": [
+        {
+          "domain": 1,
+          "state": "insufficient",
+          "signal": "公開課與官方學習內容由單點效率延伸到可重複工作流及7／14／30天採用回看。",
+          "basis": "供給與研究題材可見；缺同口徑付費、長期採用與成果量測。",
+          "sources": [
+            "https://github.com/mandyaispace-glitch/ai-course-radar/blob/main/reports/2026-10-25_每週AI課程市場雷達.md"
+          ]
+        },
+        {
+          "domain": 2,
+          "state": "insufficient",
+          "signal": "製造資料分析、流程優化、AI戰情室與B2B流程在10月重複出現。",
+          "basis": "有公開課綱與確定開班頁面，缺企業採購額、學員數及導入成果。",
+          "sources": [
+            "https://edu.cpc.org.tw/class/content/1662",
+            "https://github.com/mandyaispace-glitch/ai-course-radar/blob/main/reports/2026-10-18_每週AI課程市場雷達.md"
+          ]
+        },
+        {
+          "domain": 3,
+          "state": "continuing",
+          "signal": "主管決策、責任與治理持續產品化；CPC管理效能班與製造決策班頁面均標示確定開班，臺大10/8公布AI時代系列。",
+          "basis": "可核實供給與至少兩項確定開班；未公布實際學員數或營收，不能推定熱銷。",
+          "sources": [
+            "https://tc.cpc.org.tw/class/content/1869",
+            "https://edu.cpc.org.tw/class/content/1662",
+            "https://www.ntuspecs.ntu.edu.tw/specs/tc/info_in.aspx?chk=e4ce9e07-cb95-4543-8bd8-8860aac13f7d&cid=127&id=1381"
+          ]
+        },
+        {
+          "domain": 4,
+          "state": "insufficient",
+          "signal": "主管課、外貿協會場次與企業董總課均把Agent角色分工、治理及組織設計放進主張。",
+          "basis": "多為課程供給與內容訊號；缺同口徑報名、成交與企業導入數。",
+          "sources": [
+            "https://www.cwlearning.com.tw/courses/41535fbe-b731-449c-b9e9-4d529e4470c8",
+            "https://elearning.taiwantrade.com/physical_course_overview"
+          ]
+        },
+        {
+          "domain": 5,
+          "state": "insufficient",
+          "signal": "人才培訓從一般工具操作延伸到主管、員工、技術及法遵角色分層與導入能力。",
+          "basis": "來源庫與課程頁反映供給，不代表企業培訓預算、完課或能力改善。",
+          "sources": [
+            "https://github.com/mandyaispace-glitch/ai-course-radar/blob/main/reports/2026-10-02_每週AI課程市場雷達.md"
+          ]
+        },
+        {
+          "domain": 6,
+          "state": "insufficient",
+          "signal": "B2B客戶研究、CRM、客戶互動閉環與行銷Agent於10月中下旬持續出現。",
+          "basis": "無同口徑學員數、轉換率或企業採購證據。",
+          "sources": [
+            "https://github.com/mandyaispace-glitch/ai-course-radar/blob/main/reports/2026-10-18_每週AI課程市場雷達.md",
+            "https://github.com/mandyaispace-glitch/ai-course-radar/blob/main/reports/2026-10-25_每週AI課程市場雷達.md",
+            "https://elearning.taiwantrade.com/physical_course_overview"
+          ]
+        },
+        {
+          "domain": 7,
+          "state": "insufficient",
+          "signal": "GEO／AI搜尋題目持續被公開課與官方指南產品化。",
+          "basis": "缺可比招生與商業成果；課程供給與搜尋能見度不是付費需求。",
+          "sources": [
+            "https://t-e-a.org.tw/course-and-event/course/2026%E7%AC%AC%E5%9B%9B%E5%AD%A3%E8%AA%B2%E7%A8%8B%E5%87%BA%E7%88%90/",
+            "https://github.com/mandyaispace-glitch/ai-course-radar/blob/main/reports/2026-10-11_每週AI課程市場雷達.md"
+          ]
+        },
+        {
+          "domain": 8,
+          "state": "insufficient",
+          "signal": "小店AI員工、微型店家集客接客留客與個人工作系統等包裝出現。",
+          "basis": "多為課程主張，沒有付費規模及持續使用數。",
+          "sources": [
+            "https://github.com/mandyaispace-glitch/ai-course-radar/blob/main/reports/2026-10-25_每週AI課程市場雷達.md"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "date": "2026-10-02",
+          "url": "https://github.com/mandyaispace-glitch/ai-course-radar/blob/main/reports/2026-10-02_每週AI課程市場雷達.md",
+          "label": "10/02 原始研究"
+        },
+        {
+          "date": "2026-10-04",
+          "url": "https://github.com/mandyaispace-glitch/ai-course-radar/blob/main/reports/2026-10-04_每週AI課程市場雷達.md",
+          "label": "10/04 原始研究"
+        },
+        {
+          "date": "2026-10-11",
+          "url": "https://github.com/mandyaispace-glitch/ai-course-radar/blob/main/reports/2026-10-11_每週AI課程市場雷達.md",
+          "label": "10/11 原始研究"
+        },
+        {
+          "date": "2026-10-18",
+          "url": "https://github.com/mandyaispace-glitch/ai-course-radar/blob/main/reports/2026-10-18_每週AI課程市場雷達.md",
+          "label": "10/18 原始研究"
+        },
+        {
+          "date": "2026-10-25",
+          "url": "https://github.com/mandyaispace-glitch/ai-course-radar/blob/main/reports/2026-10-25_每週AI課程市場雷達.md",
+          "label": "10/25 原始研究"
+        },
+        {
+          "date": "2026-11-02",
+          "url": "https://github.com/mandyaispace-glitch/ai-course-radar/blob/main/reports/2026-10_monthly-radar.md",
+          "label": "2026-10 closed_month 月度報告"
+        },
+        {
+          "date": "2026-11-01",
+          "url": "https://tc.cpc.org.tw/class/content/1869",
+          "label": "CPC導入AI管理效能班確定開班"
+        },
+        {
+          "date": "2026-10-08",
+          "url": "https://www.ntuspecs.ntu.edu.tw/specs/tc/info_in.aspx?chk=e4ce9e07-cb95-4543-8bd8-8860aac13f7d&cid=127&id=1381",
+          "label": "臺大人工智慧時代系列公告"
+        }
+      ],
+      "limits": [
+        "2026-09僅有historical_samples，沒有closed_month，不能做正式月比。",
+        "多數公開頁未提供報名人數、額滿數、企業採購額或完課數。",
+        "課程供給、搜尋能見度、研究收錄數與付費需求屬不同指標。",
+        "確定開班只證明班次成立，不代表熱門或高獲利。"
       ]
     }
   ]
